@@ -64,7 +64,7 @@ def main():
         def prediction(dflist, questions):
             cdqa_pipeline2.fit_retriever(df=dflist)
             prediction=[]
-            # for q in ["what is the agreement #", 'what is the customer name',"how much is the contract value and fee", "what kind of vmware software is customer purchasing?", "what is the schedule"]:
+            # for q in [""]:
             for q in questions:
                 prediction.append(cdqa_pipeline2.predict(q))
                 # predict=cdqa_pipeline2.predict(qq)
