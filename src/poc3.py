@@ -1,8 +1,11 @@
 # %%
 # Anaconda promt
-# git clone https://github.com/cdqa-suite/cdQA.git
-# cd cdQA
-# pip install -e .
+# my comments here:
+# load orig framework and download model loacally.
+# few alternatives to get hugging face stuff - again bert pretrained !! final layer should be raw logit!!  if softmax present - rm it!  
+#Load Framework 
+# 
+#
 import os
 import torch
 import cdqa
